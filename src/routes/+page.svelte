@@ -12,4 +12,6 @@
 		<input type="password" class="input" placeholder="Type your password" />
 	</fieldset>
 
+  <input type="button" class="btn btn-primary" value="Login">
+
 </div>
