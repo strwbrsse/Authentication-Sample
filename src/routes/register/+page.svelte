@@ -1,26 +1,75 @@
-<div class="border-slate-200 border-2 rounded-lg shadow-slate-200 shadow-lg p-4 max-w-2xl mx-auto">
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
 
-	<h1 class="text-xl format-semibold text-center">Register</h1>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-<form>
-    <fieldset class="fieldset">
-		<legend class="fieldset-legend">Name</legend>
-		<input type="text" class="input" placeholder="Type your name" />
-	</fieldset>
+<body class="bg-base-200">
 
-	<fieldset class="fieldset">
-		<legend class="fieldset-legend">Email</legend>
-		<input type="email" class="input" placeholder="Type your email" />
-	</fieldset>
+  <div class="min-h-screen flex items-center justify-center">
+    <div class="card w-full max-w-md bg-base-100 shadow-xl border border-base-300">
+      <div class="card-body">
 
-  <fieldset class="fieldset">
-		<legend class="fieldset-legend">Password</legend>
-		<input type="password" class="input" placeholder="Type your password" />
-	</fieldset>
+        <h1 class="text-3xl font-bold text-center">
+          Register
+        </h1>
 
-  <input type="button" class="btn btn-primary w-full" value="Login">
-</form>
+        <form class="space-y-4 mt-4">
 
-<p class="text-center mt-5">Already have an account? <a href="/" class="link">Login</a></p>
+          <div>
+            <label class="label">
+              <span class="label-text">Name</span>
+            </label>
+            <input
+              type="text"
+              placeholder="Type your name"
+              class="input input-bordered w-full"
+            />
+          </div>
 
-</div>
+          <div>
+            <label class="label">
+              <span class="label-text">Email</span>
+            </label>
+            <input
+              type="email"
+              placeholder="Type your email"
+              class="input input-bordered w-full"
+            />
+          </div>
+
+          <div>
+            <label class="label">
+              <span class="label-text">Password</span>
+            </label>
+            <input
+              type="password"
+              placeholder="Type your password"
+              class="input input-bordered w-full"
+            />
+          </div>
+
+          <button class="btn btn-primary w-full">
+            Register
+          </button>
+
+        </form>
+
+        <p class="text-center mt-4">
+          Already have an account?
+          <a href="/" class="link link-primary">
+            Login
+          </a>
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
