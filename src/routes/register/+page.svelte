@@ -21,4 +21,6 @@
   <input type="button" class="btn btn-primary w-full" value="Login">
 </form>
 
+<p class="text-center mt-5">Already have an account? <a href="/" class="link">Login</a></p>
+
 </div>

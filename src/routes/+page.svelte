@@ -16,4 +16,6 @@
   <input type="button" class="btn btn-primary w-full" value="Login">
 </form>
 
+<p class="text-center mt-5">Don't have an account yet? <a href="/register" class="link">Register</a></p>
+
 </div>
