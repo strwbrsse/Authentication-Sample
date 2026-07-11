@@ -2,6 +2,7 @@
 
 	<h1 class="text-xl format-semibold text-center">Login</h1>
 
+<form>
 	<fieldset class="fieldset">
 		<legend class="fieldset-legend">Email</legend>
 		<input type="email" class="input" placeholder="Type your email" />
@@ -12,6 +13,7 @@
 		<input type="password" class="input" placeholder="Type your password" />
 	</fieldset>
 
-  <input type="button" class="btn btn-primary" value="Login">
+  <input type="button" class="btn btn-primary w-full" value="Login">
+</form>
 
 </div>
